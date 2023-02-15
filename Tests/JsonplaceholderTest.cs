@@ -16,6 +16,7 @@ namespace RESTAPI_Task.Tests
     [Order(0)]
     internal class JsonplaceholderTest : BaseTest
     {
+        //Diff
         string URL = GetURL();
         string postsEndpoint = GetAllPostsEndpoint();
         string postEndpoint = GetSinglePostEndpoint();
