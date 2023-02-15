@@ -1,19 +1,20 @@
-﻿using NUnit.Framework;
-using RESTAPI_Task.Util;
-using RestSharp;
+﻿using Aquality.Selenium.Browsers;
+using NUnit.Framework;
+using OpenQA.Selenium.Chrome;
+using VKAPITask.Utility;
 
-namespace RESTAPI_Task.Base
+namespace VKAPITask.Base
 {
     public class BaseTest
     {
+        protected static Browser? ActiveBrowser;
         protected static Random Random = new();
-        string? URL;
-        RestResponse? response;
+        protected static string URL = Config.URL;
 
-        [SetUp]
-        public void Setup()
+        [TearDown]
+        public void TearDown()
         {
-            URL = Config.GetURL();
+            ActiveBrowser.Quit();
         }
     }
 }

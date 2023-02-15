@@ -1,7 +1,5 @@
 {
-  "URL": "https://jsonplaceholder.typicode.com",
-  "user": "users/",
-  "users": "users",
-  "posts": "posts",
-  "post": "posts/"
+  "URL": "https://vk.com/",
+  "APIURL": "https://api.vk.com/method/",
+  "apiver": "5.131"
 }

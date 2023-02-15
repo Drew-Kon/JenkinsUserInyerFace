@@ -1,0 +1,8 @@
+{
+  "wallpost": "wall.post",
+  "getWallUploadServer": "photos.getWallUploadServer",
+  "walledit": "wall.edit",
+  "savephoto": "photos.saveWallPhoto",
+  "addcomment": "wall.createComment",
+  "wallgetlikes": "wall.getLikes"
+}
